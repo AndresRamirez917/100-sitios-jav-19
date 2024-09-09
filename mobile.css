@@ -1,0 +1,95 @@
+.navbar .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.navbar ul {
+    float: none;
+    width: 100%;
+    margin-top: 3em;
+}
+
+.navbar ul li {
+    display: block;
+    margin-left: 10px;
+   
+}
+
+.navbar ul li a {
+    float: none;
+    width: 100%;
+    font-size: .9em;
+}
+
+/* showcase */
+
+.container {
+    display: flex;
+   flex-direction: column;
+}
+.container .item:nth-child(1) {order:2}
+.container .item:nth-child(2) {order:1}
+.container .item:nth-child(3) {order:2}
+
+#showcase img {
+float: none;
+width: 100%;
+margin-bottom: 2em;
+}
+
+#showcase h1 {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+#showcase p {
+    float: none;
+    width: 100%;
+    text-align: justify;
+}
+
+/* about */
+#about h2 {
+    float: none;
+    width:  100%;
+    margin: 0;
+    text-align: center;
+}
+
+#about p {
+    float: none;
+    width: 100%;
+    text-align: justify;
+}
+
+/* trips */
+#trips .card {
+    float: none;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#trips img {
+    width: 250px;
+    height: 200px;
+}
+
+/* contact */
+#contact h2  {
+    margin: 0;
+    text-align: center;
+    float: none;
+    width: 100%;
+}
+
+#contact form {
+    float: none;
+    width: 75%;
+    margin: 0 auto;
+}
+
