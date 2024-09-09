@@ -75,6 +75,13 @@ form {
     width: 100%;
 }
 
+::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    content: "\f007";
+    text-align: right;
+}
+
 #contact .form-control {
     display: block;
     width: 100%;
@@ -102,6 +109,16 @@ button:hover {
     text-align: center;
     float: left;
     width: 33%;
+    height: 450px;
+}
+
+.card h3 {
+    width: 350px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
 }
 
 .card:hover img {
